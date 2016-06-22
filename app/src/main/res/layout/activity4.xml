@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageViewphoto"
+        android:background="@drawable/myphoto"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Name *"
+        android:gravity="center"
+        android:background="@drawable/roundedit"
+        android:ems="10"
+        android:id="@+id/editText2name"
+        android:layout_below="@+id/imageViewphoto"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Mobile *"
+        android:id="@+id/editText2mobile"
+        android:layout_below="@+id/editText2name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:ems="10"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editText2email"
+        android:layout_below="@+id/editText2mobile"
+        android:layout_centerHorizontal="true"
+        android:hint="Email *"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:gravity="center"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="30dp"
+        android:hint="Referrel Code (optional)"
+        android:ems="10"
+        android:id="@+id/editText2referralcode"
+        android:layout_below="@+id/editText2email"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Get Opt"
+        android:textSize="20dp"
+        android:id="@+id/button3register"
+        android:layout_below="@+id/editText2referralcode"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:textSize="20dp"
+        android:id="@+id/button3back"
+
+
+        android:background="@drawable/back"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="By Registering you agree to the terms and conditions"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:id="@+id/textViewcondition"
+       android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:id="@+id/your_placeholder"
+        android:layout_width="fill_parent"
+
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true">
+    </FrameLayout>
+
+
+</RelativeLayout>

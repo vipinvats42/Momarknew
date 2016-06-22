@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:gravity="center"
+        android:background="@drawable/roundedit"
+        android:hint="Phone Number"
+        android:maxLength="10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Get Otp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="New User"
+        android:id="@+id/button2"
+        android:layout_below="@+id/buttonresendOTP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#6633FF"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:text=""
+        android:id="@+id/textViewtimer"
+        android:background="@drawable/timer"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textViewtime"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:text=""
+        android:hint="Enter  OTP"
+        android:gravity="center"
+        android:background="@drawable/roundedit"
+        android:ems="10"
+        android:id="@+id/editTextotp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:text="Resend OTP"
+        android:id="@+id/buttonresendOTP"
+        android:layout_below="@+id/editTextotp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+
+</RelativeLayout>
